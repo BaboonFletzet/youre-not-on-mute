@@ -1,0 +1,21 @@
+{
+  "options": {
+    "beam_size": 8,
+    "ctc_weight": 0.2,
+    "lm_weight": 0.2,
+    "length_bonus": -0.2,
+    "uncertainty_margin": 0.0
+  },
+  "selection": "60 development clips; frozen parameters evaluated on 60 initial and 100 additional clips",
+  "evaluation": {
+    "baseline_wer": 0.28324697754749567,
+    "candidate_wer": 0.26252158894645944,
+    "clips": 160,
+    "reference_words": 1158,
+    "baseline_insertions": 53,
+    "candidate_insertions": 24,
+    "baseline_deletions": 46,
+    "candidate_deletions": 65
+  },
+  "notes": "Pilot, prealigned LRS3 mouths; not a speaker-disjoint or live-capture guarantee. Frozen-mouth controls passed. Expensive provisional passes are disabled."
+}

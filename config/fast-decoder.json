@@ -1,0 +1,10 @@
+{
+  "options": {
+    "beam_size": 4,
+    "ctc_weight": 0.0,
+    "lm_weight": 0.0,
+    "length_bonus": 0.0,
+    "uncertainty_margin": 0.0
+  },
+  "notes": "Original decoder for comparisons or slower hardware."
+}
